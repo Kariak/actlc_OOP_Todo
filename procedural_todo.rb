@@ -9,6 +9,7 @@ list << { "name" => "Feed the cat", "complete" => false }
 list << { "name" => "Take out trash", "complete" => false }
 list << { "name" => "Mow the lawn", "complete" => false }
 
+puts list
 # Print out the second task in the list
 puts "Second task:"
 puts list[1]["name"]
